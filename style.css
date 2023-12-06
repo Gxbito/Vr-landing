@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/landing-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 100px;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-icon-container {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu-links ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-menu-links ul>li {
+    color: #FFF;
+    font-family: Antic;
+    font-size: 27px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-title-desc-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 0px;
+}
+
+.hero-title-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero-title-desc h1,
+.hero-title-desc p {
+    color: #FFF;
+    font-family: Antic;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.hero-title-desc p {
+    color: #979797;
+    font-size: 23px;
+}
+
+.hero-title-desc-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 75px;
+    border-radius: 15px;
+    background-image: url(img/hero-button-background.svg);
+    background-repeat: no-repeat;
+    background-size: 240px 75px;
+    background-position: center;
+
+    /* TEXT STYLE */
+    color: #FFF;
+    font-family: Antic;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.hero-title-desc-button a:before {
+    content: "";
+    position: absolute;
+    width : 100%;
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    filter        : blur(10px);
+    -moz-filter   : blur(10px);
+    -webkit-filter: blur(10px);
+    -o-filter     : blur(10px);
+}
+
+.hero-product-img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-product-img {
+    height: 800px;
+    width: 800px;
+    padding-right: 100px;
+}
+
+.hero-product-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 70px 0px;
+}
+
+.product-title-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title-price p:nth-child(1) {
+    color: #FFF;
+    font-family: Antic;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.product-title-price p:nth-child(2) {
+    color: #FFF;
+    font-family: Antonio;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.hero-other-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background: url(/img/hero-other-products-background.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid;
+    gap: 5px;
+    position: relative;
+}
+
+.hero-other-products p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hero-products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero-products img {
+    width: 160px;
+    height: 160px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
