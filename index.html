@@ -2,122 +2,245 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Locura</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Locura</title>
 </head>
 
 <body>
-    <header>
-        <nav>
+  <header>
+    <nav>
+      <!-- ICONO DEL NAV -->
+      <div class="nav-icon-container">
+        <img src="" alt="" />
+      </div>
 
-            <!-- ICONO DEL NAV -->
-            <div class="nav-icon-container">
-                <img src="" alt="">
+      <!-- LINKS DEL MENU -->
+      <div class="nav-menu-links">
+        <ul>
+          <li>Home</li>
+          <li>Features</li>
+          <li>Reviews</li>
+          <li>Order</li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <article>
+    <section class="hero-section">
+      <div class="hero-content-container">
+        <!-- TITLE + DESCRIPTION + "LEARN MORE" BUTTON -->
+        <div class="hero-title-desc-button">
+          <div class="hero-title-desc">
+            <h1>New Virtual Reality Glasses</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Assumenda totam quisquam, numquam debitis repudiandae quaerat.
+              Impedit quos
+            </p>
+          </div>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div class="hero-product-img">
+          <img src="./img/hero-img.png" alt="" />
+        </div>
+
+        <div class="hero-product-desc">
+          <div class="product-title-price">
+            <p>VR "Duo Dinámico 1"</p>
+            <p>$3200</p>
+          </div>
+          <div class="hero-other-products">
+            <p>Other products</p>
+            <div class="hero-products">
+              <img src="./img/other-products-img-1.png" alt="" />
+              <img src="./img/other-products-img-2.png" alt="" />
             </div>
+          </div>
+        </div>
+      </div>
 
-            <!-- LINKS DEL MENU -->
-            <div class="nav-menu-links">
-                <ul>
-                    <li>Home</li>
-                    <li>Features</li>
-                    <li>Reviews</li>
-                    <li>Order</li>
-                </ul>
+      <div class="hero-button-container">
+        <button>Order Now</button>
+      </div>
+    </section>
+
+    <section class="features-section">
+      <h2 class="features-title">Features</h2>
+      <div class="features-grid">
+        <div class="features-card card-1">
+          <h3>Motion Tracking</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora,
+            cum inventore minus in omnis quas corporis. Minima laborum
+            necessitatibus repellendus.
+          </p>
+          <button>Learn more</button>
+          <img src="/img/features-card-vertical-img.png" alt="" />
+        </div>
+
+        <div class="features-card card-2">
+          <h3>Total Inmersion</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Tempora, cum inventore minus in omnis quas corporis. Minima
+            laborum necessitatibus repellendus.
+          </p>
+
+          <img src="/img/features-card-horizontal-img.png" alt="" />
+        </div>
+
+        <div class="features-card card-3">
+          <h3>Real Simulation</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora,
+            cum inventore minus in omnis quas corporis. Minima laborum
+            necessitatibus repellendus.
+          </p>
+        </div>
+
+        <div class="features-card card-4">
+          <h3>Interactivity</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora,
+            cum inventore minus in omnis quas corporis. Minima laborum
+            necessitatibus repellendus.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights-section">
+
+      <h2>Highlights</h2>
+      <div class="highlights-container">
+
+        <div class="highlights-text-container">
+          <div class="highlights-text">
+            <h3>HMD:</h3>
+            <p>Dispositivos colocados en la cabeza que contienen pantallas para mostrar imágenes estereoscópicas.</p>
+          </div>
+
+          <div class="highlights-text">
+            <h3>Controladores de entrada:</h3>
+            <p>Dispositivos colocados en la cabeza que contienen pantallas para mostrar imágenes estereoscópicas.</p>
+          </div>
+
+          <div class="highlights-text">
+            <h3>Biometric trackers:</h3>
+            <p>Dispositivos colocados en la cabeza que contienen pantallas para mostrar imágenes estereoscópicas.</p>
+          </div>
+        </div>
+
+        <div class="highlights-img">
+          <img src="img/hero-img.png" alt="">
+        </div>
+
+        <div class="highlights-text-container">
+
+          <div class="highlights-text">
+            <h3>Stereo:</h3>
+            <p>Dispositivos colocados en la cabeza que contienen pantallas para mostrar imágenes estereoscópicas.</p>
+          </div>
+
+          <div class="highlights-text">
+            <h3>Adjustment system:</h3>
+            <p>Dispositivos colocados en la cabeza que contienen pantallas para mostrar imágenes estereoscópicas.</p>
+          </div>
+
+          <div class="highlights-text">
+            <h3>Great glasses:</h3>
+            <p>Dispositivos colocados en la cabeza que contienen pantallas para mostrar imágenes estereoscópicas.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="review-section">
+      <h2>Reviews</h2>
+      <div class="reviews-container">
+        <div class="review-card">
+
+          <div class="profile-container">
+            <img src="img/user-profile-pic-1.png" alt="">
+            <div class="profile-info">
+              <p>Alanis Funes</p>
+              <div class="card-rating">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star-incomplete.svg" alt="">
+              </div>
             </div>
+          </div>
 
-        </nav>
-    </header>
+          <div class="profile-review">
+            The VR headsets I purchased deliver an impressive visual experience with solid build quality. However,
+            limited content variety and occasional motion tracking issues impacted my overall satisfaction. Customer
+            service was friendly and responsive. A decent option, but there's room for improvement."
+          </div>
 
-    <article>
-        <section class="hero-section">
+        </div>
 
-            <div class="hero-content-container">
+        <div class="review-card">
 
-                <!-- TITLE + DESCRIPTION + "LEARN MORE" BUTTON -->
-                <div class="hero-title-desc-button">
-                    <div class="hero-title-desc">
-                        <h1>New Virtual Reality Glasses</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda totam quisquam, numquam
-                            debitis repudiandae quaerat. Impedit quos
-                        </p>
-                    </div>
-                    <a href="#">Learn More</a>
-                </div>
-
-                <div class="hero-product-img">
-                    <img src="./img/hero-img.png" alt="">
-                </div>
-
-                <div class="hero-product-desc">
-                    <div class="product-title-price">
-                        <p>VR "Duo Dinámico 1"</p>
-                        <p>$3200</p>
-                    </div>
-                    <div class="hero-other-products">
-                        <p>Other products</p>
-                        <div class="hero-products">
-                            <img src="./img/other-products-img-1.png" alt="">
-                            <img src="./img/other-products-img-2.png" alt="">
-                        </div>
-                    </div>
-                </div>
-
+          <div class="profile-container">
+            <img src="img/user-profile-pic-2.png" alt="">
+            <div class="profile-info">
+              <p>Roman Invernizzi</p>
+              <div class="card-rating">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star-incomplete.svg" alt="">
+              </div>
             </div>
+          </div>
 
-            <div class="hero-button-container">
-                <button>
-                    Order Now
-                </button>
+          <div class="profile-review">
+            The VR headsets I purchased deliver an impressive visual experience with solid build quality. However,
+            limited content variety and occasional motion tracking issues impacted my overall satisfaction. Customer
+            service was friendly and responsive. A decent option, but there's room for improvement."
+          </div>
+
+        </div>
+
+        <div class="review-card">
+
+          <div class="profile-container">
+            <img src="img/user-profile-pic-3.png" alt="">
+            <div class="profile-info">
+              <p>Tomas Parodi</p>
+              <div class="card-rating">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star.svg" alt="">
+                <img src="img/review-star-incomplete.svg" alt="">
+              </div>
             </div>
-        </section>
+          </div>
 
-        <section class="features-section">
-            <h2 class="features-title">Features</h2>
-            <div class="features-grid">
+          <div class="profile-review">
+            The VR headsets I purchased deliver an impressive visual experience with solid build quality. However,
+            limited content variety and occasional motion tracking issues impacted my overall satisfaction. Customer
+            service was friendly and responsive. A decent option, but there's room for improvement."
+          </div>
 
-                <div class="features-card card-1">
-                    <h3>Motion Tracking</h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, cum inventore minus in omnis
-                        quas corporis. Minima laborum necessitatibus repellendus.
-                    </p>
-                    <button>
-                        Learn more
-                    </button>
-                    <img src="/img/features-card-vertical-img.png" alt="">
-                </div>
+        </div>
+      </div>
+      <a>Leave us a review here →</a>
+    </section>
 
-                <div class="features-card card-2">
-                    <h3>Total Inmersion</h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, cum inventore minus in omnis
-                        quas corporis. Minima laborum necessitatibus repellendus.
-                    </p>
-                    <img src="/img/features-card-horizontal-img.png" alt="">
-                </div>
-
-                <div class="features-card card-3">
-                    <h3>Real Simulation</h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, cum inventore minus in omnis
-                        quas corporis. Minima laborum necessitatibus repellendus.
-                    </p>
-                </div>
-
-                <div class="features-card card-4">
-                    <h3>Interactivity</h3>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, cum inventore minus in omnis
-                        quas corporis. Minima laborum necessitatibus repellendus.
-                    </p>
-                </div>
-
-            </div>
-        </section>
-    </article>
+    <section class=""></section>
+  </article>
 </body>
 
 </html>
